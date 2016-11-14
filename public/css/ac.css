@@ -1,0 +1,83 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.35;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+}
+
+
+.sidebar {
+	font-family: 'Roboto', sans-serif;
+}
+
+.sidebar a {
+	color: #ddd;
+}
+
+.sidebar-sticky {
+	bottom: initial;
+}
+
+.sidebar-about h1 {	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 3em;
+}
+
+.sidebar-nav-item {
+	font-size: 1.25em;
+}
+
+.sidebar .social-icon {
+	margin-right: 10px;
+	margin-left: -5px;
+}
+
+.sidebar .all-rights {
+	margin-top: 30px;
+}
+
+.content {
+	margin: 0.5rem 2rem 2rem 18rem;
+	padding: 2rem;
+}
+
+.content h2, .content h3, .content h4, .content h5 {
+	color: #444;
+	margin-top: 2rem;
+}
+
+.content h1 + p, .content h2 + p {
+	margin-top: 0.3rem;
+}
+
+.message {
+	font-size: 0.9rem;
+}
+
+.content p {
+	margin-top: 1.5em;
+	margin-bottom: 0.3em;
+
+}
+ul, ol, dl {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+.content .no-top-margin {
+	margin-top: 0.3em;
+}
+
+.content li {
+	margin-top: 0.3em;
+}

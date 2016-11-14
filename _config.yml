@@ -1,0 +1,49 @@
+# Setup
+title:            Центр Анализа Данных
+description:      'Правительства Москвы'
+url:              //analysiscenter.github.io
+baseurl:          /
+permalink:   /:categories/:title/
+
+github:
+  repo:           https://github.com/analysiscenter/analysiscenter.github.io
+facebook_page:    analysiscenter.ru
+github_page:      analysiscenter
+
+timezone:         Europe/Moscow
+future:           true
+# Permalinks
+#permalink:       pretty
+#relative_permalinks: true
+reading_time:     true
+words_per_minute: 150
+
+author:
+  name:           'Роман Худорожков'
+  email:          r.khudorozhkov@analysiscenter.ru
+
+paginate:         10
+
+
+
+
+# Dependencies
+highlighter: rouge
+markdown:    kramdown
+gems:
+#  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+
+
+include: [".htaccess", "_pages"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

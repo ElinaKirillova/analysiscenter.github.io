@@ -11,7 +11,7 @@ github:
 facebook_page:    analysiscenter.ru
 github_page:      analysiscenter
 disqus_shortname: analysiscenter-blog
-pisqus_url      : http://analysiscenter.github.io
+disqus_url      : http://analysiscenter.github.io
 
 timezone:         Europe/Moscow
 future:           true

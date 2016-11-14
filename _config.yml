@@ -3,18 +3,19 @@ title:            Центр Анализа Данных
 description:      'Правительства Москвы'
 url:              //analysiscenter.github.io
 baseurl:          /
-permalink:   /:categories/:title/
+permalink:        /:categories/:title/
 
+google_analytics: UA-87399503-1
 github:
   repo:           https://github.com/analysiscenter/analysiscenter.github.io
 facebook_page:    analysiscenter.ru
 github_page:      analysiscenter
+disqus_shortname: analysiscenter-blog
+pisqus_url      : http://analysiscenter.github.io
 
 timezone:         Europe/Moscow
 future:           true
-# Permalinks
-#permalink:       pretty
-#relative_permalinks: true
+
 reading_time:     true
 words_per_minute: 150
 

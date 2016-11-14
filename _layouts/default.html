@@ -9,9 +9,11 @@
 
     <div id="content" class="content container">
       {{ content }}
-    </div>
 
+      {% include disqus_comments.html %}
+    </div>
    
     {% include katex.html %}
+    {% include google_analytics.html %}
   </body>
 </html>

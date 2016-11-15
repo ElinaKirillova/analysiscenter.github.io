@@ -81,3 +81,7 @@ ul, ol, dl {
 .content li {
 	margin-top: 0.3em;
 }
+
+code, pre {
+	font-family: 'Ubuntu Mono', monospace;
+}

@@ -84,4 +84,14 @@ ul, ol, dl {
 
 code, pre {
 	font-family: 'Ubuntu Mono', monospace;
+	background-color: inherit;
+}
+
+code.highlighter-rouge {
+	font-size: 1em;
+	padding: 0;
+}
+
+.language-terminal pre, .language-terminal code {
+	color: #f9f9f9;
 }

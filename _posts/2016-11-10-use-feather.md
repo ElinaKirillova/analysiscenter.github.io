@@ -26,6 +26,7 @@ tags: python, feather, pandas
 
 ## Установить пакет
 Python'овский пакет для работы с feather-файлами называется `feather-format`. Устанавливается он самым обычным способом:
+
 ```terminal
 pip install feather-format
 ```

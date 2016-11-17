@@ -38,10 +38,11 @@ conda install -c conda-forge feather-format
 
 
 ## Записать датафрейм
+Чтобы сохранить датафрейм на диск, просто вызовите `feather.write_dataframe`:
 
 ```python
 import feather
-#... 
+#...
 
 # создаем датафрейм с визитами в городские поликлиники (загружаем из СУБД)
 df_visits = load_visits(from="01.01.2016", to="30.06.2016", clinics="poly")
@@ -55,11 +56,11 @@ feather.write_dataframe(df_visits, 'visits.feather')
 
 ## Прочитать датафрейм
 
-Загрузка датафрейма из feather-файла также осуществляется одной командой:
+Загрузка датафрейма из feather-файла также осуществляется одной командой `feather.read_dataframe`:
 
 ```python
 import feather
-#... 
+#...
 
 # загружаем датафрейм с визитами в поликлиники
 df_visits = feather.read_dataframe('visits.feather', columns=['clinic_id', 'patient_id', 'date', 'duration'])
@@ -89,4 +90,4 @@ df_visits <- read_feather(path)
 
 Во-вторых, он компактно хранит данные (благодаря поддержке `Categorical`/`factor` и строк переменной длины).
 
-В-третьих, он умеет обращаться с `NA`-значениями для любых типов данных
+В-третьих, он умеет обращаться с `NA`-значениями для любых типов данных.
